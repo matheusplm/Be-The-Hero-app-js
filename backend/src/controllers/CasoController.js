@@ -30,7 +30,7 @@ module.exports={
             .offset((page-1)*5)
             .select([
                 'incidents.*'
-                ,'ongs.name'
+                ,'ongs.nome'
                 ,'ongs.UF'
                 ,'ongs.cidade'
                 ,'ongs.whatsapp'
